@@ -1,7 +1,7 @@
 FROM node:alpine
 MAINTAINER Bernd KLAUS "https://berndklaus.at"
 
-RUN sudo apk add --no-cache bash curl g++ gcc libgcc libstdc++ linux-headers make python
+RUN apk add --no-cache bash curl g++ gcc libgcc libstdc++ linux-headers make python
 
 USER node
 
