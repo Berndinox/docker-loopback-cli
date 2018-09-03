@@ -10,7 +10,7 @@ ENV USER=node
 ENV PATH=/home/node/.npm-global/bin:$PATH
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 
-RUN apk add --no-cache bash curl g++ gcc libgcc libstdc++ linux-headers make python \
+RUN sudo apk add --no-cache bash curl g++ gcc libgcc libstdc++ linux-headers make python \
  && npm install -g loopback-cli && npm cache clean --force
  
 
