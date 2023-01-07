@@ -6,4 +6,4 @@
 # docker-loopback-cli
 
 
-https://loopback.io/
+https://loopback.io/ (MIT License)
